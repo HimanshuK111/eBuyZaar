@@ -1,0 +1,36 @@
+/* Checkout.css */
+
+.Checkout {
+  display: flex;
+  padding: 20px;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+}
+
+.Checkout__left {
+  flex: 0.75;
+}
+
+/* Checkout.css */
+
+.Checkout__right {
+  flex: 0.25;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* checkout ad container */
+.checkout__adContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout__ad {
+  width: 150%; /* Increase this if needed */
+  max-width: 1600px;
+  object-fit: cover;
+  border-radius: 5px;
+}
