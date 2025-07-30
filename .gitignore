@@ -1,0 +1,13 @@
+# 🔒 Sensitive files
+.env
+src/firebase.js
+
+# ⚙️ System & cache
+.DS_Store
+*.log
+
+# 📦 Node dependencies
+node_modules/
+
+# ⚙️ Build output
+build/
